@@ -1,0 +1,27 @@
+{
+    "Name": "example_moduleR",
+    "Description": "example_moduleR",
+    "Version": "0.1",
+    "CategoryTags": [],
+    "Cmd": "Rscript main.R",
+    "Param": {
+        "P1": {
+            "Default": "",
+            "Type": "string"
+        },
+        "P2": {
+            "Default": "",
+            "Type": "string"
+        }
+    },
+    "Input": {
+        "my_input1": [
+            "csv"
+        ]
+    },
+    "Output": {
+        "my_output1": [
+            "csv"
+        ]
+    }
+}
